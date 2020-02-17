@@ -21,7 +21,7 @@
 
 .box2 {
     margin: 25px 0px 0px 0px;
-    width: 40%;
+    width: 34vw;
 }
 
 .verificado {
@@ -54,4 +54,9 @@ h2 {
     text-align: center;
     align-items: center;
     display: flex;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
 }

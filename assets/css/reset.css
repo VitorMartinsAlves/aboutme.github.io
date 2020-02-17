@@ -4,6 +4,9 @@ body {
     padding: 0;
     background-color: #0c0c0c;
     font-size: 12px;
+    background-image: url('../img/andrea-cau-nV7GJmSq3zc-unsplash.jpg');
+    width: 100%;
+    background-attachment: fixed;
 }
 
 h1, h2, h3, h4, h5{
@@ -21,3 +24,5 @@ p {
     text-align: justify;
   text-justify: inter-word;
 }
+
+
