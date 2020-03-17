@@ -27,7 +27,7 @@ h2 {
     width: 70vw;
 }
 
-p {
+p, span{
     color: white;
     text-align: justify;
     text-justify: inter-word;

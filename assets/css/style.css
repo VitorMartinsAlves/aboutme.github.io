@@ -1,14 +1,12 @@
-
-
 header {
     background-color: #121314;
-    display:flex;
+    display: flex;
     align-content: center;
     height: 45px;
 }
 
 ul {
-  align-content: center;
+    align-content: center;
     list-style: none;
     display: flex;
     justify-content: space-around;
@@ -20,6 +18,14 @@ ul {
     padding: 2%;
     margin: 3%;
     border: 1px solid #606060;
+}
+
+.details p {
+    padding-bottom: 10px;
+}
+
+span {
+    opacity: 0.2;
 }
 
 a {
@@ -89,6 +95,19 @@ h2 {
 
 @media (max-width: 1200px) {}
 
-@media (max-width: 768px) {}
-
-@media (max-width: 460px) {}
+@media (max-width: 768px) {
+    .about {
+        display: grid;
+    }
+    .box2 {
+        width: 70vw;
+    }
+    .sobre {
+        width: 60vw;
+    }
+    .perfil {
+        width: 40vw;
+        padding: 4%;
+        margin: 6%;
+    }
+    @media (max-width: 460px) {}
