@@ -97,9 +97,17 @@ h2 {
     justify-content: space-between;
 }
 
+.navbar {
+    display: none;
+}
+
 @media (max-width: 1200px) {}
 
 @media (max-width: 768px) {
+    .navbar {
+        display: block;
+    }
+
     .about {
         display: grid;
     }
@@ -123,6 +131,11 @@ h2 {
         align-content: center;
         height: 45px;
         background-attachment: fixed;
-        
     }
-    @media (max-width: 460px) {}
+
+   
+}
+
+@media (max-width: 460px) {}
+
+}

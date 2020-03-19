@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
@@ -12,6 +12,8 @@ body {
     background-image: url('../img/andrea-cau-nV7GJmSq3zc-unsplash.jpg');
     width: 100%;
     background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 h1, h3, h4, h5 {
@@ -27,12 +29,36 @@ h2 {
     width: 70vw;
 }
 
-p, span{
+p, span {
     color: white;
     text-align: justify;
     text-justify: inter-word;
 }
 
 .sobre a {
-    
+    background-color: red;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #121314;
+    position: fixed;
+    top: 95%;
+    height: 52px;
+    width: 100%;
+}
+
+.navbar a {
+    float: right;
+    display: flex;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
 }
